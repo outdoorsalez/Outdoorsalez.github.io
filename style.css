@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7f4;
+  color: #1c2b22;
+}
+
+header {
+  background: #1c3d2b;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #256628;
+}
+
+.about {
+  text-align: center;
+  padding: 40px;
+}
+
+footer {
+  background: #1c3d2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
